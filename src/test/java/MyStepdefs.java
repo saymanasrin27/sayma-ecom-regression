@@ -74,7 +74,7 @@ public class MyStepdefs extends TestRunner
 
     @And("I go to cart")
     public void iGoToCart() throws InterruptedException {
-        driver.findElement(By.cssSelector("span.cart-label")).click();
+        driver.get("http://twentyconsulting-001-site1.dtempurl.com/cart");
         Thread.sleep(3000);
         driver.navigate().refresh();
     }

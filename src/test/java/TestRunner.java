@@ -27,9 +27,9 @@ public class TestRunner
     @BeforeClass
     public static void startBrowser() throws InterruptedException{
 
-   // WebDriverManager.chromedriver().setup();
+    //  WebDriverManager.chromedriver().setup();
 
-    //driver = new ChromeDriver();
+    //  driver = new ChromeDriver();
 
 
         DesiredCapabilities caps = new DesiredCapabilities();
@@ -47,6 +47,8 @@ public class TestRunner
         }
 
         Thread.sleep(10000);
+
+
     }
     @AfterClass
     public static void stopBrowser()
