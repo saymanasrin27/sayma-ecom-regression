@@ -2,9 +2,9 @@ Feature: End to end feature
 
   @sayma
   Scenario: Create an order with a Gift Card
-    Given I am in homepage
-    And   I click on login link from navigation  bar
-    And   I enter user name as 'sayma.nasrin27@gmail.com'
+    Given I am in homepage url "http://twentyconsulting-001-site1.dtempurl.com/"
+    When   I click on login link from navigation  bar
+    And   I enter email 'sayma.nasrin27@gmail.com'
     And   I enter password as 'Rony4143'
     And   I click on login button
     And   I click on add to cart
